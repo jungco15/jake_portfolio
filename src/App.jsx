@@ -1,6 +1,5 @@
 import Header from './Header/Header'
-import LandingPage from './Landingpage/LandingPage'
-
+import About from './About/About'
 
 function App() {
 
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
     <Header/>
-    <LandingPage/>
+    <About/>
     </>
   )
 }
