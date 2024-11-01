@@ -13,7 +13,7 @@ function About() {
         <div className="bg-inherit pt-4 md:px-[8rem] h-full w-full items-center justify-center flex overflow-x-hidden" id='about'>
             <div className="bg-inherit w-full h-full rounded-lg block items-center justify-center">
                 <h4 className='text-center text-lg md:text-4xl font-semibold text-gray tracking-wide' data-aos="fade-left">My Background</h4>
-                <p className='text-black px-3 pt-2 md:text-2xl md:text-center text-sm font-light' data-aos="fade-left">
+                <p className='text-gray px-3 pt-2 md:text-2xl md:text-center text-sm font-light' data-aos="fade-left">
                     Hello! I’m Jake Cabrillos, a dedicated student at the University of Antique, currently pursuing a degree in Electrical Technology. With a strong passion for understanding complex systems, I have engaged in various projects that have honed my skills in electrical engineering.
                 </p>
                 <p className='text-gray px-3 pt-4 md:text-2xl md:text-center text-sm font-light' data-aos="fade-left">
@@ -34,11 +34,11 @@ function About() {
                     </ul>
                     <h4 className='text-lg px-3 pt-4 md:text-4xl font-medium text-gray tracking-tight md:text-center' data-aos="fade-left">Soft Skills</h4>
                     <ul className='list-disc list-inside block px-10 md:flex md:pt-4 md:text-center md:items-center md:justify-center '>
-                        <li className='font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Team Collaboration</li>
-                        <li className='font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Problem-Solving</li>
-                        <li className='font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Communication</li>
-                        <li className='font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Adaptability</li>
-                        <li className='font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Critical Thinking</li>
+                        <li className='text-gray font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Team Collaboration</li>
+                        <li className='text-gray font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Problem-Solving</li>
+                        <li className='text-gray font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Communication</li>
+                        <li className='text-gray font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Adaptability</li>
+                        <li className='text-gray font-light text-sm px-0 w-full md:text-lg' data-aos="fade-left">Critical Thinking</li>
                     </ul>
                 </div>
             </div>

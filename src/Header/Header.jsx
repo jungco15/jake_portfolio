@@ -41,7 +41,7 @@ function Header() {
             </nav>
             <div className="w-full h-full bg-inherit items-center justify-center z-0" id="home">
             <div className="pt-28 h-full md:pt-52 md:justify-center md:text-center md:items-center md:px-[8rem]">
-                <h4 className="text-white font-semibold text-4xl md:text-6xl px-3 tracking-tight " data-aos="fade-left">
+                <h4 className="text-black font-semibold text-4xl md:text-6xl px-3 tracking-tight " data-aos="fade-left">
                 Expert Electrical Solutions.
                 </h4>
                 <p className="text-black font-light text-2xl px-3 pt-2 md:text-5xl" data-aos="fade-left" >
