@@ -1,9 +1,14 @@
 import React from "react";
 import { CardStack } from "@/components/ui/card-stack";
-
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 // Experience Component
 function Experience() {
+    useEffect(() => {
+        Aos.init(); 
+    }, []);
     const cardData = [
         {
             id: 1,
@@ -28,10 +33,10 @@ function Experience() {
         <section className="h-full w-full bg-inherit ">
         <div className=" bg-inherit w-full h-full flex max-sm:flex-col justify-center " id="experience">
             <div className="flex justify-center items-center lg:px-10  max-sm:pt-6 ">
-            <h4 className='text-cent text-lg md:text-4xl font-semibold text-gray tracking-wide ' data-aos="fade-left"data-aos-duration="600" data-aos-offset="400">My Experience</h4>
+            <h4 className='text-cent text-lg md:text-4xl font-semibold text-gray tracking-wide ' data-aos="fade-left"data-aos-duration="600" data-aos-offset="100">My Experience</h4>
             </div>
         <div className=" flex items-center max-sm:-mt-32 justify-center h-[36rem]" >
-            <div data-aos="fade-left" data-aos-duration="600" data-aos-offset="400" >
+            <div data-aos="fade-left" data-aos-duration="600" data-aos-offset="200" >
         <CardStack items={cardData} offset={20} scaleFactor={0.06} />
         </div>
       </div>
