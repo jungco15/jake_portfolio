@@ -6,10 +6,11 @@ function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
-        Aos.init(); 
+        Aos.init({delay:'300'}); 
     }, []);
 
     return (
+    
         <div className={`block h-screen w-full transition-all duration-300 ${isMenuOpen ? 'bg-black' : 'bg-gradient-to-t from-white to-gray'}`} >
             <nav className="flex justify-between items-center text-white py-6 px-4 md:px-16">
                 <a href="https://www.facebook.com/jake.cabrillos.31" target="_blank" rel="noopener noreferrer" className="hover:scale-x-105 transition-all">
@@ -47,9 +48,13 @@ function Header() {
                 <p className="text-black font-light text-2xl px-3 pt-2 md:text-5xl" data-aos="fade-left" >
                 Powering Your Projects with Precision and Reliability, Ensuring Safety and Efficiency Every Step of the Way.
                 </p>
+                <div className="items-center justify-center flex">
+              <a href="#about"><i className='bx bxs-chevron-down  hover:text-white pt-20 text-2xl lg:text-3xl lg:pt-28 cursor-pointer overflow-x-hidden' data-aos="fade-left" ></i></a>  
+                </div>
                 </div>
         </div>
         </div>
+        
     );
 }
 
